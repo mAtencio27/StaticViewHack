@@ -1,0 +1,286 @@
+[
+    {
+        "account": "HmvAVJEq9SbHVXkPpXrYFdSd2x8ifRBDTLTY7E3f2uYR",
+        "onChainAccountInfo": {
+            "accountInfo": {
+                "key": "HmvAVJEq9SbHVXkPpXrYFdSd2x8ifRBDTLTY7E3f2uYR",
+                "isSigner": false,
+                "isWritable": false,
+                "lamports": 1461600,
+                "data": {
+                    "parsed": {
+                        "info": {
+                            "decimals": 0,
+                            "freezeAuthority": "D9wGrmwwwW9FbqAvCf77rrfGHPyaBzhdNHB7rYEG5FBa",
+                            "isInitialized": true,
+                            "mintAuthority": "D9wGrmwwwW9FbqAvCf77rrfGHPyaBzhdNHB7rYEG5FBa",
+                            "supply": "1"
+                        },
+                        "type": "mint"
+                    },
+                    "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+                    "space": 82
+                },
+                "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+                "executable": false,
+                "rentEpoch": 361
+            },
+            "error": ""
+        },
+        "onChainMetadata": {
+            "metadata": {
+                "tokenStandard": "NonFungibleEdition",
+                "key": "MetadataV1",
+                "updateAuthority": "H6vB5kduxJCJ8PE6bdbQfSm2tuJSPJuRRUTcH9kkqRP2",
+                "mint": "HmvAVJEq9SbHVXkPpXrYFdSd2x8ifRBDTLTY7E3f2uYR",
+                "data": {
+                    "name": "黄金町トイレ.jpg",
+                    "symbol": "",
+                    "uri": "https://bafkreiaqwljoxev4zr3dxzogfjh2ub2t2sek3fulbbmieq5mqkkdyu5q2e.ipfs.dweb.link?ext=",
+                    "sellerFeeBasisPoints": 1000,
+                    "creators": [
+                        {
+                            "address": "H6vB5kduxJCJ8PE6bdbQfSm2tuJSPJuRRUTcH9kkqRP2",
+                            "verified": true,
+                            "share": 98
+                        },
+                        {
+                            "address": "tsU33UT3K2JTfLgHUo7hdzRhRe4wth885cqVbM8WLiq",
+                            "verified": true,
+                            "share": 2
+                        }
+                    ]
+                },
+                "primarySaleHappened": false,
+                "isMutable": false,
+                "editionNonce": 254,
+                "uses": {
+                    "useMethod": "",
+                    "remaining": 0,
+                    "total": 0
+                },
+                "collection": null,
+                "collectionDetails": null
+            },
+            "error": ""
+        },
+        "offChainMetadata": {
+            "metadata": {
+                "attributes": [],
+                "description": "横浜ストリート",
+                "image": "https://bafybeig2qgaxkewghyrmz3ideh2zasuphjxqa6yhl7qvyf2gvkfv7xektm.ipfs.dweb.link?ext=jpg",
+                "name": "黄金町トイレ.jpg",
+                "properties": {
+                    "category": "image",
+                    "creators": [
+                        {
+                            "address": "H6vB5kduxJCJ8PE6bdbQfSm2tuJSPJuRRUTcH9kkqRP2",
+                            "share": 98
+                        },
+                        {
+                            "address": "tsU33UT3K2JTfLgHUo7hdzRhRe4wth885cqVbM8WLiq",
+                            "share": 2
+                        }
+                    ],
+                    "files": [
+                        {
+                            "type": "image/jpeg",
+                            "uri": "https://bafybeig2qgaxkewghyrmz3ideh2zasuphjxqa6yhl7qvyf2gvkfv7xektm.ipfs.dweb.link?ext=jpg"
+                        }
+                    ]
+                },
+                "sellerFeeBasisPoints": 1000,
+                "symbol": ""
+            },
+            "uri": "https://bafkreiaqwljoxev4zr3dxzogfjh2ub2t2sek3fulbbmieq5mqkkdyu5q2e.ipfs.dweb.link?ext=",
+            "error": ""
+        },
+        "legacyMetadata": null
+    },
+    {
+        "account": "CGChT4jYK2rdXnU346WYk8XAxJXGkhHgaHXsdXGvH4jS",
+        "onChainAccountInfo": {
+            "accountInfo": {
+                "key": "CGChT4jYK2rdXnU346WYk8XAxJXGkhHgaHXsdXGvH4jS",
+                "isSigner": false,
+                "isWritable": false,
+                "lamports": 1461600,
+                "data": {
+                    "parsed": {
+                        "info": {
+                            "decimals": 0,
+                            "freezeAuthority": "AgGYxgh2pF991yYwXZ1yZ43oDowpUkSYoHEcGHvDYEqq",
+                            "isInitialized": true,
+                            "mintAuthority": "AgGYxgh2pF991yYwXZ1yZ43oDowpUkSYoHEcGHvDYEqq",
+                            "supply": "1"
+                        },
+                        "type": "mint"
+                    },
+                    "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+                    "space": 82
+                },
+                "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+                "executable": false,
+                "rentEpoch": 361
+            },
+            "error": ""
+        },
+        "onChainMetadata": {
+            "metadata": {
+                "tokenStandard": "UnknownStandard",
+                "key": "MetadataV1",
+                "updateAuthority": "2BNABAPHhYAxjpWRoKKnTsWT24jELuvadmZALvP6WvY4",
+                "mint": "CGChT4jYK2rdXnU346WYk8XAxJXGkhHgaHXsdXGvH4jS",
+                "data": {
+                    "name": "Cursed Fried Ghost 2",
+                    "symbol": "",
+                    "uri": "https://arweave.net/-UQQNgJMARsF6nlFqgZeeM8LEIMBwv9WiKPIDzITnDA",
+                    "sellerFeeBasisPoints": 500,
+                    "creators": [
+                        {
+                            "address": "2BNABAPHhYAxjpWRoKKnTsWT24jELuvadmZALvP6WvY4",
+                            "verified": true,
+                            "share": 100
+                        }
+                    ]
+                },
+                "primarySaleHappened": false,
+                "isMutable": true,
+                "editionNonce": 254,
+                "uses": {
+                    "useMethod": "",
+                    "remaining": 0,
+                    "total": 0
+                },
+                "collection": {
+                    "key": "J31HYC9L4MaURzsyC1HUrvtUMcgQrPgiN46ixDWnu8sJ",
+                    "verified": true
+                },
+                "collectionDetails": null
+            },
+            "error": ""
+        },
+        "offChainMetadata": {
+            "metadata": {
+                "attributes": [
+                    {
+                        "value": "Cursed"
+                    }
+                ],
+                "description": "A ghost-shaped fried potato snack was cursed and now it wanders the net cursing JPEGs.",
+                "external_url": "",
+                "image": "https://www.arweave.net/iZi7grUiJlUpTa6CZ6x6QcvikdEXf06Xw18vTb6jdSc?ext=gif",
+                "name": "Cursed Fried Ghost 2",
+                "properties": {
+                    "category": "image",
+                    "creators": [
+                        {
+                            "address": "2BNABAPHhYAxjpWRoKKnTsWT24jELuvadmZALvP6WvY4",
+                            "share": 100
+                        }
+                    ],
+                    "files": [
+                        {
+                            "type": "image/gif",
+                            "uri": "https://www.arweave.net/iZi7grUiJlUpTa6CZ6x6QcvikdEXf06Xw18vTb6jdSc?ext=gif"
+                        }
+                    ]
+                },
+                "seller_fee_basis_points": 500,
+                "symbol": ""
+            },
+            "uri": "https://arweave.net/-UQQNgJMARsF6nlFqgZeeM8LEIMBwv9WiKPIDzITnDA",
+            "error": ""
+        },
+        "legacyMetadata": null
+    },
+    {
+        "account": "3jNWaxcFYcyfgwqdyU6Mpi4VitnyGHJF9M7ojyz4bU2G",
+        "onChainAccountInfo": {
+            "accountInfo": {
+                "key": "3jNWaxcFYcyfgwqdyU6Mpi4VitnyGHJF9M7ojyz4bU2G",
+                "isSigner": false,
+                "isWritable": false,
+                "lamports": 1461600,
+                "data": {
+                    "parsed": {
+                        "info": {
+                            "decimals": 0,
+                            "freezeAuthority": "9odhRUntbiymdvemxA5YVgodwKBKM6iFFRQeZR1Lx8Ro",
+                            "isInitialized": true,
+                            "mintAuthority": "9odhRUntbiymdvemxA5YVgodwKBKM6iFFRQeZR1Lx8Ro",
+                            "supply": "1"
+                        },
+                        "type": "mint"
+                    },
+                    "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+                    "space": 82
+                },
+                "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+                "executable": false,
+                "rentEpoch": 0
+            },
+            "error": ""
+        },
+        "onChainMetadata": {
+            "metadata": {
+                "tokenStandard": "NonFungibleEdition",
+                "key": "MetadataV1",
+                "updateAuthority": "4vqGtq3KnfAGJoL2dpmiHGvt4Xh5sUaFUKwtkq7E4xyg",
+                "mint": "3jNWaxcFYcyfgwqdyU6Mpi4VitnyGHJF9M7ojyz4bU2G",
+                "data": {
+                    "name": "Fading Strength",
+                    "symbol": "",
+                    "uri": "https://arweave.net/MKqxOVuxkhFJB7vX86fsrC4-waeq8IDyVQjEBzZI1KY",
+                    "sellerFeeBasisPoints": 1000,
+                    "creators": [
+                        {
+                            "address": "4vqGtq3KnfAGJoL2dpmiHGvt4Xh5sUaFUKwtkq7E4xyg",
+                            "verified": true,
+                            "share": 100
+                        }
+                    ]
+                },
+                "primarySaleHappened": true,
+                "isMutable": false,
+                "editionNonce": 253,
+                "uses": {
+                    "useMethod": "",
+                    "remaining": 0,
+                    "total": 0
+                },
+                "collection": null,
+                "collectionDetails": null
+            },
+            "error": ""
+        },
+        "offChainMetadata": {
+            "metadata": {
+                "attributes": null,
+                "description": "Mother is weary\n.\nFrame by frame animation\n2048 x 2048 px\n9 frames\n24 fps\nGIF\n2023",
+                "image": "https://arweave.net/aR6WdFzkin3s21rUl2C4Vm0wqcxgQIOF0FTAPgsKNjM?ext=gif",
+                "name": "Fading Strength",
+                "properties": {
+                    "category": null,
+                    "creators": [
+                        {
+                            "address": "4vqGtq3KnfAGJoL2dpmiHGvt4Xh5sUaFUKwtkq7E4xyg",
+                            "share": 100
+                        }
+                    ],
+                    "files": [
+                        {
+                            "type": "image/gif",
+                            "uri": "https://arweave.net/aR6WdFzkin3s21rUl2C4Vm0wqcxgQIOF0FTAPgsKNjM?ext=gif"
+                        }
+                    ]
+                },
+                "sellerFeeBasisPoints": 1000,
+                "symbol": null
+            },
+            "uri": "https://arweave.net/MKqxOVuxkhFJB7vX86fsrC4-waeq8IDyVQjEBzZI1KY",
+            "error": ""
+        },
+        "legacyMetadata": null
+    }
+]
