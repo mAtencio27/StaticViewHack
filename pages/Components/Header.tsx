@@ -4,7 +4,6 @@ import Link from "next/link";
 import Landing from "../Landing";
 
 interface PageProps {
-    // Include the [view, setView] state in the component's props
     darkMode: boolean;
     setDarkMode: React.Dispatch<React.SetStateAction<boolean>>;
 };

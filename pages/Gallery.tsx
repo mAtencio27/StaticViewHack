@@ -1,7 +1,6 @@
 import CarouselDisplay from "./Components/CarouselDisplay";
 
 interface PageProps {
-    // Include the [view, setView] state in the component's props
     view: any[];
     setView: React.Dispatch<React.SetStateAction<any[]>>;
     darkMode: boolean;

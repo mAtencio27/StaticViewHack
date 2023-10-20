@@ -6,7 +6,6 @@ import Link from "next/link";
 import QRCode from 'qrcode';
 
 interface PageProps {
-  // Include the [view, setView] state in the component's props
   view: any[];
   setView: React.Dispatch<React.SetStateAction<any[]>>;
   darkMode: boolean;
@@ -16,12 +15,6 @@ interface PageProps {
 export default function GetNFT({ view, setView, darkMode, setDarkMode}: PageProps) {
 
   const [address, setAddress] = useState<string>("");
-
-    useEffect(()=>{
-      // CAN GET RID OF THIS CONSOLE LOG AFTER TESTS TO CLEAN UP 🗑
-        //console.log("This is the use effect")
-        
-    },[]);
 
     const GenerateQRCode = async(x: string) => {
       let nftAddressString = `https://solscan.io/token/${x}`
@@ -42,9 +35,6 @@ export default function GetNFT({ view, setView, darkMode, setDarkMode}: PageProp
                       'Content-Type': 'application/json'
                   },
                   body: JSON.stringify({
-                          // sample address
-                          //["HmvAVJEq9SbHVXkPpXrYFdSd2x8ifRBDTLTY7E3f2uYR"]
-                          //["J2sDZKYH2K1TP8hNgSUyqjmwRMJPBnD7DufQXVFL1T2n"]
                           "mintAccounts": [address],
                           includeOffChain: true,
                           disableCache: false
@@ -62,9 +52,7 @@ export default function GetNFT({ view, setView, darkMode, setDarkMode}: PageProp
     const submitHandler = async() => {
       if(address){
         try{
-          //console.log(`THIS IS THE ADDRESS BEING PASSED: ${address}`)
           const res = await fetchNFT();
-          //👮🏾‍♂️👮🏾‍♂️👮🏾‍♂️THIS IS A ERROR HANDLING BLOCK ATTEMP 👮🏾‍♂️👮🏾‍♂️👮🏾‍♂️
           if (!res[0]?.onChainMetadata?.metadata) {
             console.log("error");
             return;

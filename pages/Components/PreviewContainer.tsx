@@ -2,7 +2,6 @@ import { data } from "autoprefixer";
 import { useState, useEffect } from "react"
 
 interface PageProps {
-    // Include the [view, setView] state in the component's props
     view: any[];
     setView: React.Dispatch<React.SetStateAction<any[]>>;
   }
@@ -25,9 +24,6 @@ export default function PreviewContainer({ view, setView }: PageProps) {
                       <div id="image" className="flex h-4/5 justify-center m-1">
                         <img src={item[0].offChainMetadata.metadata.image} className="max-h-full max-w-full object-cover p-1"></img>
                       </div>
-                      {/* <div id="qrContainer">
-                          <img src={item[0].offChainMetadata.metadata.image}></img>
-                        </div> */}
                       <div id="PreviewName"className="flex justify-center items-end h-1/5 overflow-hidden text-base text-[.5em] sm:text-[1em] p-1">{item[0].offChainMetadata.metadata.name}</div>
                       <div id="deleteButtonPreview"
                             className="
