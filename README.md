@@ -29,6 +29,12 @@ Your app is running at http://localhost:3000.
 
 Make Changes.
 
+## Setup API
+Sign up to use the free version of the Helius API here:
+https://www.helius.dev/
+
+make sure to add your token to your .env 
+
 
 ## Usage
 
@@ -42,18 +48,10 @@ Using Static Viewer is a breeze:
 
 Use some of our provided addresses to get started.
 
-["HmvAVJEq9SbHVXkPpXrYFdSd2x8ifRBDTLTY7E3f2uYR"]
 ["J2sDZKYH2K1TP8hNgSUyqjmwRMJPBnD7DufQXVFL1T2n"]
 ["CGChT4jYK2rdXnU346WYk8XAxJXGkhHgaHXsdXGvH4jS"]
 ["3jNWaxcFYcyfgwqdyU6Mpi4VitnyGHJF9M7ojyz4bU2G"]
 
-
-
-## Deploy on Vercel
-
-This is the current working URL to the site please use the test addresses above to get going. 
-
-https://static-view2-0-0.vercel.app/ -->
 
 ## License
 Our licensing Information can be found in the Repo# StaticViewHack

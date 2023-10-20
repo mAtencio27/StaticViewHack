@@ -119,7 +119,7 @@ export default function GetNFT({ view, setView, darkMode, setDarkMode}: PageProp
                   Submit</button>
             </div>
             <div id="proceedButton">
-              <Link href='./Options'
+              <Link href='./Gallery'
                 className="
                 flex h-12 
                 w-44 
